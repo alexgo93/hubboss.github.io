@@ -1,0 +1,210 @@
+header {
+	padding: 15px 0;
+}
+body {
+	font-family: "AleksandraCRegular";
+}
+	@font-face {
+			font-family: "AleksandraCRegular";
+			src: url("../fonts/AleksandraCRegular/AleksandraCRegular.eot");
+			src: url("../fonts/AleksandraCRegular/AleksandraCRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AleksandraCRegular/AleksandraCRegular.woff") format("woff"),
+			url("../fonts/AleksandraCRegular/AleksandraCRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+		@font-face {
+			font-family: "AirportRegular";
+			src: url("../fonts/AirportRegular/AirportRegular.eot");
+			src: url("../fonts/AirportRegular/AirportRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AirportRegular/AirportRegular.woff") format("woff"),
+			url("../fonts/AirportRegular/AirportRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+		@font-face {
+			font-family: "ArchiveRegular";
+			src: url("../fonts/ArchiveRegular/ArchiveRegular.eot");
+			src: url("../fonts/ArchiveRegular/ArchiveRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/ArchiveRegular/ArchiveRegular.woff") format("woff"),
+			url("../fonts/ArchiveRegular/ArchiveRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.header_button>a {
+    border: 2px solid #9371fc;
+    color: #9371fc;
+    padding: 5px 20px;
+    border-radius: 20px;
+    font-size: 20px;
+    transition: 0.3s; 
+}
+.header_button>a:hover {
+	color: #fff;
+	background: #9371fc;
+	transition: 0.3s; 
+}
+.header_button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+h1 {
+	font-family: "ArchiveRegular";
+	    font-size: 55px;
+}
+article.performance {
+    padding: 50px 0 0;
+}
+.performance_block p {
+    font-size: 25px;
+}
+.avatar {
+    margin: 25px 0;
+}
+.performance_image {
+    max-width: 760px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+.performance_image img {
+	width: 100%;
+	object-fit: cover;
+}
+article.greeting {
+	padding: 50px 0;
+	background: #8C43FF;
+	color: #fff;
+	text-align: center;
+}
+h2 {
+	font-family: "ArchiveRegular";
+	    font-size: 45px;
+}
+.greeting_block p {
+	    line-height: 1.4;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding: 20px 0;
+}
+.scills_grid>div {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #E6ECF8;
+}
+.scills_grid div ul {
+	list-style: none;
+	    padding: 0;
+}
+.scills_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        background: #fff;
+            margin-top: -70px;
+        box-shadow: 0px 2px 3px #ececec;
+    border-radius: 20px;
+}
+.scills_grid>div:first-child {
+	border-radius: 20px 0 0 20px;
+	border-right: none;
+}
+.scills_grid>div:last-child {
+	border-radius: 0px 20px 20px 0px;
+}
+.scills_grid>div figure img {
+    margin: 10px 0;
+}
+.scills_grid>div figure figcaption {
+    font-family: "ArchiveRegular";
+    font-size: 25px;
+    margin: 10px;
+}
+p.skill_description {
+    padding: 20px;
+}
+
+.scills_grid>div .skill h3 {
+    color: #8C43FF;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 50px;
+}
+.skills {
+	padding-bottom: 50px;
+}
+.portfolio_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.portfolio_grid>div>img {
+	border-radius: 20px;
+	width: 100%;
+	transition: 0.3s;
+}
+.portfolio_grid>div {
+	position: relative;
+	border-radius: 20px;
+}
+.project_description {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    padding: 50px 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    opacity: 0;
+    background: #293347;
+    transition: 0.3s;
+}
+.portfolio_item:hover .project_description { 
+	transition: 0.3s;
+	opacity: 1;
+}
+.portfolio_item:hover .portfolio_image { 
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.portfolio_item {
+	overflow: hidden;
+}
+.project_description a {
+    padding: 10px 20px;
+    color: #fff;
+    border: 2px solid #8C43FF;
+    border-radius: 20px;
+    font-size: 17px;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.project_description a:hover {
+	background: #8C43FF;
+	transition: 0.3s;
+}
+.portfolio {
+	padding: 50px 0;
+	    border-top: 1px solid rgba(145, 0, 255, 0.3);
+}
+.section_title {
+	text-align: center;
+	padding: 25px 0;
+}
+footer {
+    color: #fff;
+    background: #4668d9;
+    padding: 20px;
+    font-size: 25px;
+    text-align: center;
+}
